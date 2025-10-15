@@ -9,4 +9,4 @@ A desktop-based inventory system built with **Electron.js**, **HTML**, **CSS**, 
 ### Run locally
 ```bash
 npm install
-npm start
+npm run dev
