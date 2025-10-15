@@ -1,0 +1,103 @@
+body {
+  background: linear-gradient(135deg, #f8fafc 0%, #cdf2ff 100%);
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 450px;
+  margin: 40px auto;
+  background: #fff;
+  padding: 32px;
+  border-radius: 18px;
+  box-shadow: 0 4px 18px rgba(52, 152, 219, 0.12);
+}
+
+.logo {
+  display: block;
+  margin: 0 auto 18px auto;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.10);
+}
+
+h1 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 30px;
+  color: #3b4252;
+}
+
+.card {
+  background: #f1fbff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(52, 152, 219, 0.08);
+  margin-bottom: 22px;
+  display: flex;
+  gap: 10px;
+}
+
+input[type="text"], input[type="number"] {
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #b5d7ed;
+  font-size: 1rem;
+  outline: none;
+  width: 45%;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #3498db;
+  background: #eaf6ff;
+}
+
+button {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: #3498db;
+  color: #fff;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+button:hover {
+  background: #217dbb;
+}
+
+ul#inventoryList {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background: #f8fafc;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(52, 152, 219, 0.05);
+  padding: 12px 18px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1rem;
+}
+
+li button {
+  background: #e57373;
+  color: #fff;
+  border-radius: 6px;
+  padding: 7px 14px;
+  font-size: 0.95rem;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+li button:hover {
+  background: #c0392b;
+}

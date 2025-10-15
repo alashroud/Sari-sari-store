@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sari-Sari Store Inventory</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <img src="assets/logo.jfif" alt="Logo" class="logo">
+    <h1>Sari-Sari Store Inventory</h1>
+    <form id="addForm" class="card">
+      <input type="text" id="name" placeholder="Product Name" required>
+      <input type="number" id="quantity" placeholder="Quantity" required>
+      <button type="submit">Add Product</button>
+    </form>
+    <ul id="inventoryList"></ul>
+  </div>
+  <script src="renderer.js"></script>
+</body>
+</html>
