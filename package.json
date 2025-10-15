@@ -1,0 +1,16 @@
+{
+  "name": "sari-sari-store-inventory-system-application",
+  "version": "1.0.0",
+  "description": "A simple Sari-Sari Store Inventory Application built with Electron.js",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Arrubio, Jagape, Mapilit",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^38.2.2"
+  }
+}
